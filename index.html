@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-    
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tareas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="myDIV" class="header">
-        <h2>My To Do List</h2>
-        <input type="text" id="myInput" placeholder="Title...">
-        <button id="btn">Summit</button>
-      </div>
-      <span id="error"></span>
-      
-      <ul id="myUL">
-        <li id="tarea">
-          <p id ="tarea"></p>
-          <p id ="fechacreada"></p>
-        </li>
-      </ul> 
-    <div>
-    <script src="Script.js"></script>
+  <div id="myDIV" class="header">
+    <h2>Mi Lista de Tareas</h2>
+    <input type="text" id="myInput" placeholder="Escribe tu tarea...">
+    <button id="btn">Agregar</button>
+  </div>
+  <span id="error"></span>
+  
+  <ul id="myUL">
+  </ul>
+  
+  <div class="fastest-container">
+    <button id="btnFastest">Tarea más rápida</button>
+    <span id="fastestTask"></span>
+  </div>
+
+  <script src="Script.js"></script>
 </body>
 </html>
